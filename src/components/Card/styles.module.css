@@ -1,0 +1,26 @@
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 52px 42px;
+    transition-duration: 500ms;
+    transform: translateY(50px);
+}
+.whenhovered{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.whenhovered img{
+    transition: .4s transform ease;
+}
+.whenhovered:hover {
+    opacity: 0.7;
+    transition: .4s opacity ease;
+}
+.whenhovered:hover > .content {
+    transition-duration: 500ms;
+    transform: translateY(20px);
+} 

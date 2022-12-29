@@ -1,0 +1,10 @@
+.btn-blue {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: RajdhaniRegular;
+}
+.btn-blue:hover {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}

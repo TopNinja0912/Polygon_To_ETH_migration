@@ -1,0 +1,13 @@
+p {
+font-family: RajdhaniRegular;
+}
+.text-red {
+  color: red;
+}
+.form-control {
+  padding: 6px 5px;
+  font-size: 12px;
+}
+.btn-warning {
+  cursor: pointer;
+}
